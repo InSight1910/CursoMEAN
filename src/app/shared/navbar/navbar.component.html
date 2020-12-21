@@ -1,0 +1,98 @@
+<div class="container fixed-top colorBody1">
+	<nav class="navbar navbar-expand-lg navbar-light colorNavbar2 mt-1">
+		<a class="navbar-brand ml-3" href="#">
+			<img
+				src="../../../assets/img/ojo.png"
+				alt=""
+				width="40"
+				height="40"
+			/>
+		</a>
+		<div class="container-fluid">
+			<a class="navbar-brand ml-3 colorName4" href="#"
+				><strong class="text-uppercase federica6">Vicente</strong></a
+			>
+			<button
+				class="navbar-toggler colorBody1 mr-3"
+				type="button"
+				data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="container text-justify ml-5 mr-5">
+				<div
+					class="collapse navbar-collapse"
+					id="navbarSupportedContent"
+				>
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item" routerLinkActive="active">
+							<a
+								(click)="closeNav()"
+								class="nav-link colorName3"
+								aria-current="page"
+								[routerLink]="['/home']"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item" routerLinkActive="active">
+							<a
+								(click)="closeNav()"
+								class="nav-link colorName3"
+								aria-current="page"
+								[routerLink]="['/news']"
+								>News</a
+							>
+						</li>
+						<li class="nav-item" routerLinkActive="active">
+							<a
+								(click)="closeNav()"
+								class="nav-link colorName3"
+								aria-current="page"
+								[routerLink]="['/completeNews']"
+								>CompleteNews</a
+							>
+						</li>
+						<li class="nav-item" routerLinkActive="active">
+							<a
+								(click)="closeNav()"
+								class="nav-link colorName3"
+								aria-current="page"
+								[routerLink]="['/messages']"
+								>Messages</a
+							>
+						</li>
+						<li class="nav-item" routerLinkActive="active">
+							<a
+								(click)="closeNav()"
+								class="nav-link colorName3"
+								aria-current="page"
+								[routerLink]="['/settings']"
+								>Settings</a
+							>
+						</li>
+					</ul>
+					<div class="row">
+						<div class="col text-center">
+							<p class="m-2">
+								<button
+									(click)="closeNav()"
+									class="btn btn-outline-warning my-2"
+									type="button"
+								>
+									<span
+										class="badge bg-warning text-uppercase"
+										>Contact US</span
+									>
+								</button>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+</div>
